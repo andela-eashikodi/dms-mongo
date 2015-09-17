@@ -1,0 +1,28 @@
+{
+  "name": "dms-mongo",
+  "version": "1.0.0",
+  "description": " A document management system",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node documentManagerSpec.js --forceexit --verbose",
+    "prestart": "npm install",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-eashikodi/dms-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-eashikodi/dms-mongo/issues"
+  },
+  "homepage": "https://github.com/andela-eashikodi/dms-mongo#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.1.7"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
