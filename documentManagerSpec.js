@@ -12,10 +12,14 @@ describe('Document Manager', function() {
   describe('User', function() {
 
     beforeEach(function(done) {
+      dmsService.createUser('john', 'james').then(function() {
+        done();
+      });
+    });
+
+    afterEach(function(done) {
       User.remove({}, function() {
-        dmsService.createUser('john', 'james').then(function() {
-          done();
-        });
+        done();
       });
     });
 

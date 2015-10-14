@@ -24,5 +24,15 @@
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
+  },
+  "bin": {
+    "createnewuser": "script.js",
+    "getusers": "script.js",
+    "createnewrole": "script.js",
+    "getroles": "script.js",
+    "createnewdoc": "script.js",
+    "getalldocs": "script.js",
+    "getalldocsbyrole": "script.js",
+    "getalldocsbydate": "script.js"
   }
 }
